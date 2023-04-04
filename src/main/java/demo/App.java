@@ -7,8 +7,12 @@ import java.net.MalformedURLException;
 
 public class App {
     public void getGreeting() throws InterruptedException, MalformedURLException {
-        TestCase04 test= new TestCase04();
-        test.testCase04();
+        Testcases test= new Testcases();
+        test.Bookmyshow();
+        test.Heroku();
+        test.W3schools();
+        test.W3schools1();
+        test.IMDBS();
         test.endTest(); // End your test by clearning connections and closing browser
     }
 
